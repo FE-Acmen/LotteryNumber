@@ -3,7 +3,7 @@
  * 提供大屏幕数字滚动抽奖功能，支持1-200范围随机数生成
  * 商务风格设计，简洁大气，适合现场抽奖活动
  */
-
+'use client'
 import { useState, useEffect } from 'react';
 
 interface LotteryNumberProps {
